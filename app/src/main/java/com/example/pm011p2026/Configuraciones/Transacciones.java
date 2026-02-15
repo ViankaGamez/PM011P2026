@@ -17,12 +17,18 @@ public class Transacciones {
     public static final String edad = "edad";
     public static final String foto = "foto";
 
-    //DDL
-    public static final String CreateTablePerson = "CREATE TABLE " + tbPersonas + " ( " +
+    //DDL Create
+    public static final String CreateTablePersonas = "CREATE TABLE " + tbPersonas + " ( " +
             id + " INTEGER PRIMARY KEY AUTOINCREMENT , " +
             nombre + " TEXT , " +
             apellido + " TEXT , " +
             edad + " INTEGER , " +
             correo + " TEXT , " +
             foto   + " TEXT  )" ;
+
+    //DDL Drop
+    public static final String DropTablePersonas = "DROP TABLE IF Exists " + tbPersonas;
+
+    //DML
+    public static final String SelectTablePersonas = "SELECT * FROM " + tbPersonas;
 }

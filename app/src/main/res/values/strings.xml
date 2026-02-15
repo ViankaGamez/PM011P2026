@@ -5,4 +5,5 @@
     <string name="edad">edad</string>
     <string name="correo">correo</string>
     <string name="agregar">agregar</string>
+    <string name="foto">foto\n</string>
 </resources>

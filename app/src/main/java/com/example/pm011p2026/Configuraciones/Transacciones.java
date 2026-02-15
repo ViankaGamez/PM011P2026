@@ -5,6 +5,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 public class Transacciones {
     //DB name
     public static final String dbname = "BDM01";
+    public static final int dbversion = 1;
 
     //DB tablas
     public static final String tbPersonas = "personas";
